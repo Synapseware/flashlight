@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -1586,7 +1586,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="LED+1" library="wirepad" deviceset="2,54/1,0" device="" value="VBATT"/>
 <part name="LED-1" library="wirepad" deviceset="2,54/1,0" device="" value="GND"/>
 <part name="U$2" library="Sipex Custom" deviceset="SP6641" device="SP6641A/B"/>
-<part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="1210" value="12uH"/>
+<part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="1210" value="22uH"/>
 <part name="D2" library="diode" deviceset="MBR0520LT" device="" value="MBR0530"/>
 <part name="C3" library="SparkFun-Passives" deviceset="CAP" device="1206" value="22uF"/>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="1206" value="22uF"/>
